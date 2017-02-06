@@ -65,12 +65,19 @@ Functions
         const references
     Inline functions
     Default values in parameters
+        More than one arguments
     * Declaring functions and *.h
+        compile multiple files
+        link object libraries
     static variables
+    functions with no arguments
+        f(void)
+    main() arguments
 
 Overloads and templates
     Overloaded functions
     * Function templates
+    * auto and nullptr
 
 Name visibility
     Scopes
