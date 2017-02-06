@@ -1,3 +1,5 @@
+DAY 1
+
 Variables and types
     Identifiers
     Fundamental data types
@@ -56,6 +58,13 @@ Character sequences
     Initialization of null-terminated character sequences
     Strings and null-terminated character sequences
 
+
+DAY 2
+
+Enums
+    declare enums
+        start with non-1
+
 Functions
     signature
     return
@@ -67,13 +76,15 @@ Functions
     Default values in parameters
         More than one arguments
     * Declaring functions and *.h
+        function prototypes
         compile multiple files
         link object libraries
     static variables
     functions with no arguments
         f(void)
-    main() arguments
+    main(int argc, char* argv[]) arguments
     * inline and optimization (-S -O3)
+    Recursive functions
 
 Overloads and templates
     Overloaded functions
