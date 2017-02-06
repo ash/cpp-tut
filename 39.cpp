@@ -23,4 +23,7 @@ line 2";
 
 line sring)";
     cout << s3 << "\n";
+
+    string s4 = R"^^^(hello world)^^^";
+    cout << s4 << "\n";
 }
