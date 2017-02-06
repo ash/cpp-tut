@@ -71,6 +71,7 @@ Ternary operator
 Enums
     declare enums
         start with non-1
+    scoped and unscoped enums
     enum : type (C++11)
 
 Functions
