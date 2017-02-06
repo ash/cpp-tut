@@ -129,7 +129,7 @@ C strings
         putchar(c)
         int getchar ( void );
         char * gets ( char * str );
-    operations with strings <string.h>
+    operations with strings <string.h> <cstring>
         int strcmp ( const char * str1, const char * str2 );
         char * strcat ( char * destination, const char * source );
         char * strcpy ( char * destination, const char * source );
