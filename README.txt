@@ -47,6 +47,15 @@ Statements and flow control
         goto
     switch
 
+Arrays
+    Accessing the values of an array
+    Multidimensional arrays
+    * Arrays as parameters
+
+Character sequences
+    Initialization of null-terminated character sequences
+    Strings and null-terminated character sequences
+
 Functions
     signature
     return
@@ -70,15 +79,6 @@ Name visibility
     Namespace aliasing
     The std namespace
     Global variables (static storage)
-
-Arrays
-    Accessing the values of an array
-    Multidimensional arrays
-    * Arrays as parameters
-
-Character sequences
-    Initialization of null-terminated character sequences
-    Strings and null-terminated character sequences
 
 * Pointers
     Address-of operator (&)
