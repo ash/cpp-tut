@@ -73,6 +73,7 @@ Functions
     functions with no arguments
         f(void)
     main() arguments
+    * inline and optimization (-S -O3)
 
 Overloads and templates
     Overloaded functions
