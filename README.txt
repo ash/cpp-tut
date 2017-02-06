@@ -61,9 +61,17 @@ Character sequences
 
 DAY 2
 
+Associativity
+    left-to-right (-)
+    right-to-left (=)
+        = and bool
+
+Ternary operator
+
 Enums
     declare enums
         start with non-1
+    enum : type (C++11)
 
 Functions
     signature
@@ -75,16 +83,18 @@ Functions
     Inline functions
     Default values in parameters
         More than one arguments
-    * Declaring functions and *.h
-        function prototypes
-        compile multiple files
-        link object libraries
     static variables
     functions with no arguments
         f(void)
     main(int argc, char* argv[]) arguments
-    * inline and optimization (-S -O3)
     Recursive functions
+
+Compiling and linking
+    * Declaring functions and *.h
+        function prototypes
+        compile multiple files
+        link object libraries
+    * inline and optimization (-S -O3)
 
 Overloads and templates
     Overloaded functions
@@ -111,4 +121,24 @@ Name visibility
     void pointers
     Pointers to functions
 
+C strings
+    input/output <stdio.h>
+        printf
+        int puts ( const char * str );
+        putchar(c)
+        int getchar ( void );
+        char * gets ( char * str );
+    operations with strings <string.h>
+        int strcmp ( const char * str1, const char * str2 );
+        char * strcat ( char * destination, const char * source );
+        char * strcpy ( char * destination, const char * source );
 
+
+DAY 3
+
+Structs
+    Structs
+    unions
+    access using pointers
+
+Classes
