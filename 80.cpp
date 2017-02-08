@@ -6,5 +6,5 @@ int main() {
     char buf[100];
     //itoa(i, a, 10);
     sprintf(buf, "%i", i);
-    puts(buf);
+    puts(buf);    // '4', '2', 0
 }
