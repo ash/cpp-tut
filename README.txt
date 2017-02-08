@@ -259,6 +259,7 @@ STL
             delete
         sort
             as member of container (list.sort, 043.cpp)
+            as std::sort(begin, begin+4)
     Container adaptors
         queue
             push
@@ -296,13 +297,23 @@ STL
         > exersise: print table
         hex
         setiosflags/resetiosflags (std::ios::showbase | std::ios::uppercase);
+    <sstream>
+        <<
+        str(), c_str()
+        >>
+    
+    ifstream
+        http://www.cplusplus.com/reference/ios/
+        open
+        close
+        char c = f.get()
+        eof
+        getline(f, s)
+    ofstream
+        ofstream::out, ofstream::app
 
-io
-iomanips
-files
-
-*        input/output (<<, >>) overloading for classes
-
+    *input/output (<<, >>) overloading for classes
+        ostream& operator<<(ostream& o, C& c)
 
 
 DAY 5
@@ -312,7 +323,7 @@ Dynamic libraries
 
 
 MISC
-    files
+    exceptions
 
     typedef
     namespace {}
