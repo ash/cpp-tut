@@ -121,6 +121,9 @@ Name visibility
     Pointers to pointers
     void pointers
     Pointers to functions
+    Dynamic memory
+        int *p = new int[5];
+        delete[] p;    
 
 C strings
     input/output <stdio.h>
@@ -137,9 +140,110 @@ C strings
 
 DAY 3
 
+Flashback
+    itoa => sprintf (80.cpp)
+
 Structs
     Structs
     unions
     access using pointers
+    pointers to structures (->)
+    initializing struct fields
+    struct and variable at one go
+    anonymous struct
+    array of structs
+    
 
 Classes
+    class definitions
+        create objects        
+        T t;
+        //T t();
+        T t = T();
+
+    data members
+    member functions
+        double getVolume(void);//
+        scope (resolution) operator ::
+        get/set values
+    access modifiers
+        public
+        private
+        protected
+        class vs struct
+    constructor
+        T::T()
+        Parameterized Constructor
+            Default is not created
+        Initialization Lists
+        delegating constructors (C++11)
+    destructor
+    copy constructor
+        T(const T&) // cannot take T but can T&
+        example: class with char*
+    friend functions
+        friend classes
+    inline functions
+    this
+    
+    Pointer to classes
+    static members
+        static data member
+            counter
+            with [] (031.cpp)
+        static functions
+            call as C::f()
+    Templates
+
+
+    static data members
+        static counter
+        X[10] (031.cpp)
+    static functions
+        call as C::f()
+
+    constructor(s)
+        default constructor
+        : () initialisers
+        copy constructor T::T(const T&)
+        constructor T cannot take T as argument but can as T&
+
+    ~destructor() // no void, no return
+
+    this
+        T * const this = &current_obj
+        this->arg vs arg
+        ext_f(this)
+
+
+    friend functions
+    overloading operators
+
+
+DAY 4
+
+
+STL
+
+strings
+
+io
+iomanips
+files
+
+
+DAY 5
+
+Dynamic libraries
+
+
+MISC
+    files
+
+    typedef
+    namespace {}
+    namespace alias
+    pass array to f()
+    extern variables
+    static_cast/dynamic_cast
+    typeid
