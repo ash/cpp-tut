@@ -20,8 +20,14 @@ void printC_by_val(const C c) {
     cout << c.get() << endl;
 }
 
+void printC_by_ptr(const C* c) {
+    cout << "printC_by_ptr()\n";
+    cout << c->get() << endl;
+}
+
 int main() {
     C c(5);
     printC_by_ref(c);
     printC_by_val(c);
+    printC_by_ptr(&c);
 }
