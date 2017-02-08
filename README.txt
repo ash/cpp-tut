@@ -202,6 +202,10 @@ Classes
     const member functions
     intreface and implementation (.h)
         static data members
+
+
+DAY 4
+
     inheritance
         base, derived classes
         type of inheritance
@@ -219,16 +223,61 @@ Classes
         virtual functions // shape
     abstract classes (interfaces)
 
-
-
     Templates    
 
-
-
-DAY 4
-
-
 STL
+    Containers
+        array (037.cpp)
+            fixed size, not expandable
+            size()
+            operator[]
+            at()
+            iterating using range-based for loop
+        vector (038.cpp)
+            push_back
+            size
+            empty
+            capacity
+            max_size
+            resize
+            pop_back
+            clear        
+        deque
+            push_back
+            push_front
+        pair <utility>
+            first, second
+    Iterators
+        list
+            list<int>::iterator
+            const_reverse_iterator
+            rbegin
+            rend        
+    Algorithms
+        find
+            isert in vector (042.cpp)
+            delete
+        sort
+            as member of container (list.sort, 043.cpp)
+    Container adaptors
+        queue
+            push
+            front
+            back (not end)
+            pop
+        stack
+            push
+            top
+            pop
+        priority queue (046.cpp)
+            top
+            pop
+    Associative containers
+        set
+        map
+
+
+
 
 strings
 
@@ -256,3 +305,5 @@ MISC
     extern variables
     static_cast/dynamic_cast
     typeid
+
+    fortran linking
