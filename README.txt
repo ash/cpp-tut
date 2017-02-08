@@ -96,6 +96,7 @@ Compiling and linking
         compile multiple files
         link object libraries
     * inline and optimization (-S -O3)
+    name-mangling
 
 Overloads and templates
     Overloaded functions
@@ -153,7 +154,6 @@ Structs
     anonymous struct
     array of structs
     
-
 Classes
     class definitions
         create objects        
@@ -165,6 +165,7 @@ Classes
     member functions
         double getVolume(void);//
         scope (resolution) operator ::
+        out-of-line definitions
         get/set values
     access modifiers
         public
@@ -173,19 +174,24 @@ Classes
         class vs struct
     constructor
         T::T()
+        default constructor
         Parameterized Constructor
             Default is not created
         Initialization Lists
         delegating constructors (C++11)
     destructor
+        no void, no return
     copy constructor
         T(const T&) // cannot take T but can T&
         example: class with char*
     friend functions
         friend classes
+        friends are not members (-S)
     inline functions
     this
-    
+        T * const this = &current_obj
+        this->arg vs arg
+        ext_f(this)    
     Pointer to classes
     static members
         static data member
@@ -193,31 +199,30 @@ Classes
             with [] (031.cpp)
         static functions
             call as C::f()
-    Templates
+    const member functions
+    intreface and implementation (.h)
+        static data members
+    inheritance
+        base, derived classes
+        type of inheritance
+        access control
+        multiple inheritance
+    overloading operators (034.cpp)
+        unary (-, ++, --, !)
+        binary (+, -)
+        relational (<, ==, etc.)
+        assignment (=)
+        function call ()
+        subscripting []
+        member access ->
+    polymorphism
+        virtual functions // shape
+    abstract classes (interfaces)
 
 
-    static data members
-        static counter
-        X[10] (031.cpp)
-    static functions
-        call as C::f()
 
-    constructor(s)
-        default constructor
-        : () initialisers
-        copy constructor T::T(const T&)
-        constructor T cannot take T as argument but can as T&
+    Templates    
 
-    ~destructor() // no void, no return
-
-    this
-        T * const this = &current_obj
-        this->arg vs arg
-        ext_f(this)
-
-
-    friend functions
-    overloading operators
 
 
 DAY 4
@@ -231,10 +236,14 @@ io
 iomanips
 files
 
+*        input/output (<<, >>) overloading for classes
+
+
 
 DAY 5
 
 Dynamic libraries
+    extern "C"
 
 
 MISC
