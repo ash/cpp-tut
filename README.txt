@@ -274,12 +274,28 @@ STL
             pop
     Associative containers
         set
+            insert
+            erase
+            find
         map
-
-
-
-
-strings
+            iter->first, iter->second
+    <string>
+        iterators (and rbegin, begin, end, rend)
+        auto instead of iterators
+        for (auto x : s)
+        size, length
+        [], at
+        +, +=
+        c_str
+        find, string::npos
+    <iomanip>
+        setw
+        setfill
+        setbase
+        setprecision
+        > exersise: print table
+        hex
+        setiosflags/resetiosflags (std::ios::showbase | std::ios::uppercase);
 
 io
 iomanips
