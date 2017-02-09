@@ -333,7 +333,14 @@ Misc
     typedef
     namespace {}
     namespace alias
-    Dynamic libraries
-    extern "C"
+
+Linking
     extern variables
+    extern "C"
+        call C function from C++
+            No overloading in C
+        call C++ function from C
+            wrapper for overloaded functions
+    static libraris
+    dynamic libraries
     fortran linking
