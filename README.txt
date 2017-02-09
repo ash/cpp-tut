@@ -349,6 +349,9 @@ Linking
         ar crv libtest.a
         nm
     fortran linking
+        name_
+        args by ref
+        link with gfortran
 
 TODO
     Internet
