@@ -252,7 +252,11 @@ STL
             list<int>::iterator
             const_reverse_iterator
             rbegin
-            rend        
+            rend     
+
+
+DAY 5
+
     Algorithms
         find
             isert in vector (042.cpp)
@@ -260,6 +264,7 @@ STL
         sort
             as member of container (list.sort, 043.cpp)
             as std::sort(begin, begin+4)
+        min_element, max_element        
     Container adaptors
         queue
             push
@@ -315,14 +320,9 @@ STL
     *input/output (<<, >>) overloading for classes
         ostream& operator<<(ostream& o, C& c)
 
+    <typeinfo>
+        typeid(...).name()
 
-DAY 5
-
-Dynamic libraries
-    extern "C"
-
-
-MISC
     exceptions
         try/throw/catch
         throw int, throw string
@@ -330,8 +330,14 @@ MISC
         <exception>, virtual const char* what() const throw()
         bad_alloc
         catch divide by zero
-        
 
+Dynamic libraries
+    extern "C"
+
+
+MISC
+    cstdlib vs stdlib.h
+    
     typedef
     namespace {}
     namespace alias
@@ -341,3 +347,7 @@ MISC
     typeid
 
     fortran linking
+
+
+
+(...)
