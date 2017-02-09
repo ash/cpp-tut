@@ -346,6 +346,8 @@ Linking
     dynamic libraries
         -shared libtest.so
         -L. -ltest
+        ar crv libtest.a
+        nm
     fortran linking
 
 TODO
