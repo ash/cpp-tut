@@ -342,5 +342,20 @@ Linking
         call C++ function from C
             wrapper for overloaded functions
     static libraris
+        -c
     dynamic libraries
+        -shared libtest.so
+        -L. -ltest
     fortran linking
+
+TODO
+    Internet
+        server
+        client
+    Databases
+    Unicode
+    Date and time
+    threads
+    parallel and cuncurrent programming
+    programming for Windows
+    Elements of Boost
