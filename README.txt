@@ -324,6 +324,13 @@ Dynamic libraries
 
 MISC
     exceptions
+        try/throw/catch
+        throw int, throw string
+        catch(...)
+        <exception>, virtual const char* what() const throw()
+        bad_alloc
+        catch divide by zero
+        
 
     typedef
     namespace {}
