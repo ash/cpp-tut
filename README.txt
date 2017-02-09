@@ -306,7 +306,6 @@ DAY 5
         <<
         str(), c_str()
         >>
-    
     ifstream
         http://www.cplusplus.com/reference/ios/
         open
@@ -316,13 +315,10 @@ DAY 5
         getline(f, s)
     ofstream
         ofstream::out, ofstream::app
-
     *input/output (<<, >>) overloading for classes
         ostream& operator<<(ostream& o, C& c)
-
     <typeinfo>
         typeid(...).name()
-
     exceptions
         try/throw/catch
         throw int, throw string
@@ -330,24 +326,14 @@ DAY 5
         <exception>, virtual const char* what() const throw()
         bad_alloc
         catch divide by zero
-
-Dynamic libraries
-    extern "C"
-
-
-MISC
+Misc
     cstdlib vs stdlib.h
-    
+    ellipsis ... and cstdarg
+        va_list, va_start, va_arg, va_end
     typedef
     namespace {}
     namespace alias
-    pass array to f()
+    Dynamic libraries
+    extern "C"
     extern variables
-    static_cast/dynamic_cast
-    typeid
-
     fortran linking
-
-
-
-(...)
