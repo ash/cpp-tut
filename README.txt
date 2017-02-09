@@ -333,6 +333,7 @@ Misc
     typedef
     namespace {}
     namespace alias
+    delete vs delete[]
 
 Linking
     extern variables
